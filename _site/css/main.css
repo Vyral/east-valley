@@ -2163,6 +2163,44 @@ table tr, table td {
       fill: #fe1d1d;
       background: transparent; }
 
+.zillow-logo, .trulia-logo, .yelp-logo {
+  fill: white;
+  max-height: 3rem;
+  position: relative;
+  top: 0.5rem; }
+
+.trulia-logo {
+  top: 0.2rem; }
+
+.review-button-wrapper {
+  text-align: left;
+  height: 75px; }
+
+.review.button, .review.button-ghost {
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+  border-radius: 0px;
+  transition: 0.3s; }
+  .review.button svg, .review.button-ghost svg {
+    fill: white;
+    width: 100px; }
+  .review.button:hover, .review.button-ghost:hover {
+    background: #fff;
+    color: #b40101; }
+    .review.button:hover svg, .review.button-ghost:hover svg {
+      fill: #b40101; }
+  .review.button:active, .review.button-ghost:active {
+    box-shadow: 0 0 0 #b40101;
+    -webkit-transform: translateY(0rem);
+    transform: translateY(0rem); }
+
+@media (max-width: 990px) {
+  .review-button-wrapper {
+    text-align: center; } }
 @media (max-width: 1450px) {
   .socials svg {
     height: 3rem;
@@ -2289,44 +2327,6 @@ table tr, table td {
   .search-box {
     max-width: 95%;
     margin: 0 auto; } }
-.zillow-logo, .trulia-logo, .yelp-logo {
-  fill: white;
-  max-height: 3rem;
-  position: relative;
-  top: 0.5rem; }
-
-.trulia-logo {
-  top: 0.2rem; }
-
-.review-button-wrapper {
-  text-align: left;
-  height: 75px; }
-
-.review.button, .review.button-ghost {
-  text-align: center;
-  display: inline-block;
-  width: 100%;
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-  font-size: 2rem;
-  border-radius: 0px;
-  transition: 0.3s; }
-  .review.button svg, .review.button-ghost svg {
-    fill: white;
-    width: 100px; }
-  .review.button:hover, .review.button-ghost:hover {
-    background: #fff;
-    color: #b40101; }
-    .review.button:hover svg, .review.button-ghost:hover svg {
-      fill: #b40101; }
-  .review.button:active, .review.button-ghost:active {
-    box-shadow: 0 0 0 #b40101;
-    -webkit-transform: translateY(0rem);
-    transform: translateY(0rem); }
-
-@media (max-width: 990px) {
-  .review-button-wrapper {
-    text-align: center; } }
 .client-image-container {
   border-radius: 50%;
   width: 200px;
@@ -2569,6 +2569,59 @@ form select {
       -webkit-transform: translateY(0rem);
       transform: translateY(0rem); }
 
+.e2ma_signup_form_label {
+  color: #555 !important;
+  Text-align: center; }
+
+.e2ma_signup_form_required_footnote {
+  color: #555 !important;
+  Text-align: center; }
+
+.e2ma_signup_form_required_asterix {
+  color: #b40101 !important; }
+
+.e2ma_signup_form input[type="submit"] {
+  background-color: #b40101;
+  margin: 0 auto;
+  display: block; }
+
+.e2ma_signup_form input[type="submit"]:hover {
+  background-color: #fff;
+  Color: #b40101;
+  Border: 1px solid #b40101; }
+
+.e2ma_signup_form {
+  background-color: #fff;
+  margin-bottom: 22px !important;
+  width: 100% !important; }
+
+.sidebar-opt-in {
+  border: 1px solid #cfcfcf;
+  margin-top: 20px; }
+
+.e2ma_signup_message {
+  padding-top: 10px;
+  Color: #353535 !important;
+  font-family: "Source Sans Pro", helvetica, arial, sans-serif;
+  Text-align: center;
+  Font-size: 18px !important;
+  margin-bottom: 10px;
+  Line-height: 1.2; }
+
+.e2ma_signup_form_button_row {
+  margin: 10px 0 0 0 !important;
+  padding: 10px 0 0 0 !important; }
+
+.whitespace {
+  line-height: 1.2;
+  font-size: 18px; }
+
+.landing-list {
+  margin-bottom: 0; }
+  .landing-list li {
+    font-size: 16px;
+    line-height: 1.2; }
+
 .cta {
   background: transparent;
   color: #123456;
@@ -2767,56 +2820,3 @@ form select {
 .fb-page {
   width: 70%;
   margin-left: 15%; }
-
-.e2ma_signup_form_label {
-  color: #555 !important;
-  Text-align: center; }
-
-.e2ma_signup_form_required_footnote {
-  color: #555 !important;
-  Text-align: center; }
-
-.e2ma_signup_form_required_asterix {
-  color: #b40101 !important; }
-
-.e2ma_signup_form input[type="submit"] {
-  background-color: #b40101;
-  margin: 0 auto;
-  display: block; }
-
-.e2ma_signup_form input[type="submit"]:hover {
-  background-color: #fff;
-  Color: #b40101;
-  Border: 1px solid #b40101; }
-
-.e2ma_signup_form {
-  background-color: #fff;
-  margin-bottom: 22px !important;
-  width: 100% !important; }
-
-.sidebar-opt-in {
-  border: 1px solid #cfcfcf;
-  margin-top: 20px; }
-
-.e2ma_signup_message {
-  padding-top: 10px;
-  Color: #353535 !important;
-  font-family: "Source Sans Pro", helvetica, arial, sans-serif;
-  Text-align: center;
-  Font-size: 18px !important;
-  margin-bottom: 10px;
-  Line-height: 1.2; }
-
-.e2ma_signup_form_button_row {
-  margin: 10px 0 0 0 !important;
-  padding: 10px 0 0 0 !important; }
-
-.whitespace {
-  line-height: 1.2;
-  font-size: 18px; }
-
-.landing-list {
-  margin-bottom: 0; }
-  .landing-list li {
-    font-size: 16px;
-    line-height: 1.2; }
