@@ -3,8 +3,14 @@ title: "East Valley's Best Real Estate Training"
 description: Keller Williams Realty East Valley, a top Real Estate Agency, shares their own internal real estate agent training for free. Their Real Estate Training, Tips and Advice will help you sell more homes in less time.
 show_custom_links: true
 custom_links:
-  - title: Private Consultation
-    url: http://www.joinkwev.com/apply
+  # - title: Join Our Team
+  #   url: http://www.joinkwev.com/apply
+  # - title: Events
+  #   url: #
+  - title: Free Strategy Call
+    url: /contact/
+  - title: Free Newsletter
+    url: /subscribe/
 
 client:
   name: Keller Williams East Valley
@@ -62,7 +68,7 @@ socials:
   zillow_url:
   trulia_url:
   yelp_url:
-  podcast_url: https://itunes.apple.com/us/podcast/east-valley-real-estate-careers/id1066363960?mt=2
+  podcast_url:
 
 podcast:
   title: '-- MARKET -- Real Estate Podcast with -- CLIENT NAME --'
@@ -70,7 +76,7 @@ podcast:
   image: /img/podcast.jpg
   subtitle: 'Learn all the tips, tricks and more for buyers and sellers in the -- MARKET -- Area Real Estate Market'
   description: 'If you are looking to buy or sell a home, get all the information and the latest updates, tips, and tricks from Keller Williams East Valley - your professional -- MARKET -- Real Estate Agents.'
-  keywords: 'Real Estate for sale, Real Estate agents, top real estate agents, local real estate agents, find a real estate agent, houses for sale in -- MARKET --, home selling tips, home for sale, home buying, home buying process, property finder, property search, property, real estate market, estate agent, realestate, real estate listings, buying a house, homes for sale, mls, home buyer'
+  keywords: 'the best real estate training, real estate training programs, real estate training near me, real estate jobs, real estate training videos, 	real estate training topics, real estate training free, real estate training for new agents, real estate training online'
   author: '-- CLIENT NAME --'
 
 images:

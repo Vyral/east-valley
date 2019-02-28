@@ -1206,48 +1206,43 @@ html[xmlns] .flexslider .slides {
       vertical-align: middle;
       margin-left: 10px; }
 
-.cta-sidebar-container {
+.photo-cta {
   width: 100%;
-  border: 1px solid #cfcfcf;
-  border-radius: 0px;
-  display: flex;
-  flex-wrap: wrap;
-  margin-bottom: 20px;
-  margin-top: 20px;
-  overflow: hidden; }
-  .cta-sidebar-container .cta-img-container a img {
-    max-width: 100%;
-    width: 1000px; }
-  .cta-sidebar-container h5 {
-    padding-left: 10px; }
-  .cta-sidebar-container p {
-    font-size: 18px;
-    padding: 10px;
-    color: #555; }
+  line-height: 20px;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  margin-bottom: 20px; }
 
-.ctacontainer {
-  margin: 0px auto 30px; }
+.photo-cta-container {
+  width: 70%;
+  margin-left: 15%; }
 
-.ctalink {
+.cta-button {
+  position: absolute;
+  bottom: 20px;
   justify-content: center;
-  background: #b40101;
-  border: 1px solid #b40101;
-  border-radius: 0px;
-  padding: 10px 20px;
+  display: block;
+  color: #b40101;
+  background-color: #fff;
+  border: 2px solid #b40101;
   text-decoration: none;
-  font-size: 18px;
-  color: white;
-  transition: all 0.15s ease-out 0s; }
-  .ctalink a {
-    text-align: center; }
-  .ctalink:hover {
-    background: #fff;
-    color: #b40101;
-    border: 1px solid #b40101; }
-  .ctalink:active {
-    box-shadow: 0 0 0 #b40101;
-    -webkit-transform: translateY(0rem);
-    transform: translateY(0rem); }
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+  left: 100px;
+  right: 100px;
+  text-align: center; }
+  .cta-button a {
+    color: #b40101; }
+  .cta-button:hover {
+    border: 2px solid #fff;
+    color: #fff;
+    background-color: #b40101; }
+    .cta-button:hover a {
+      color: #fff; }
 
 .jp-audio {
   border: 0;
@@ -1336,7 +1331,6 @@ html[xmlns] .flexslider .slides {
   max-width: 65%; }
 
 .navbar-nav > li {
-  margin-right: 10px;
   margin-bottom: 0px;
   transition: all 0.15s ease-out 0s; }
 
@@ -1390,7 +1384,11 @@ html[xmlns] .flexslider .slides {
 .navbar-right {
   margin-top: 2rem; }
   .navbar-right a {
-    font-weight: bold; }
+    font-weight: bold;
+    color: #b40101; }
+
+.nav > li > a {
+  padding: 10px; }
 
 .nav-logo {
   float: left !important;
@@ -1398,7 +1396,16 @@ html[xmlns] .flexslider .slides {
   margin: 5px;
   padding: 10px; }
 
-@media (max-width: 760px) {
+.nav-logo-small {
+  display: none; }
+
+@media (max-width: 1100px) {
+  .nav-logo {
+    max-width: 230px; }
+
+  #hero {
+    padding-top: 4.5rem !important; } }
+@media (max-width: 991px) {
   .nav-logo {
     display: none; }
 
@@ -1406,8 +1413,17 @@ html[xmlns] .flexslider .slides {
     height: 300px; }
 
   .nav-logo-small {
-    max-width: 300px;
-    margin-top: -10px; } }
+    max-width: 60px;
+    margin-top: -10px; }
+
+  .navbar-left {
+    margin-top: 1rem; }
+
+  .navbar-right {
+    margin-top: 1rem; } }
+@media (max-width: 767px) {
+  .nav-logo-small {
+    display: block !important; } }
 @media(max-width: 347px) {
   .navbar {
     padding-right: 5px;
@@ -1503,7 +1519,7 @@ label.tree-toggle {
 
 @media (max-width: 1100px) {
   .site-title {
-    font-size: 5rem; } }
+    font-size: 3rem; } }
 @media (max-width: 1000px) {
   .site-logo {
     max-width: 20rem; } }
@@ -2568,7 +2584,7 @@ form select {
 #myBtn {
   display: none;
   position: fixed;
-  bottom: 20px;
+  bottom: 35px;
   right: 30px;
   z-index: 99;
   font-size: 18px;
@@ -2598,6 +2614,9 @@ form select {
 .newsletter {
   background: #919191; }
 
+.contact {
+  font-size: 20px; }
+
 #side-logo {
   width: 90%;
   margin: 0 auto; }
@@ -2611,6 +2630,10 @@ form select {
 .testimonial-author {
   color: #b40101;
   margin-top: -20px; }
+
+.equal-housing {
+  max-width: 50px;
+  margin-bottom: 10px; }
 
 .recruiting {
   text-align: center; }
@@ -2763,9 +2786,12 @@ form select {
 
 .e2ma_signup_form {
   background-color: #fff;
-  Border: 1px solid #cfcfcf;
   margin-bottom: 22px !important;
   width: 100% !important; }
+
+.sidebar-opt-in {
+  border: 1px solid #cfcfcf;
+  margin-top: 20px; }
 
 .e2ma_signup_message {
   padding-top: 10px;
