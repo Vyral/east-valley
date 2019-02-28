@@ -2672,6 +2672,7 @@ form select {
   text-transform: uppercase; }
 
 #letterhead-title {
+  text-align: center;
   font-family: "Source Sans Pro", helvetica, arial, sans-serif;
   font-weight: 600;
   margin-top: 1rem;
