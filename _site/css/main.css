@@ -1472,21 +1472,22 @@ label.tree-toggle {
   background-attachment: fixed;
   background-repeat: no-repeat;
   text-align: center;
-  padding-top: 7.5rem; }
+  padding-top: 5.5rem; }
 
 .site-logo {
   width: 90%;
   max-width: 40rem;
-  -webkit-filter: drop-shadow(0px 2px 7px transparent);
-  filter: drop-shadow(0px 2px 7px transparent); }
+  -webkit-filter: drop-shadow(0px 2px 7px #000000);
+  filter: drop-shadow(0px 2px 7px #000000); }
 
 .site-title {
-  color: #b40101;
-  text-align: center;
-  font-weight: 400;
-  padding-bottom: 2rem;
-  margin-bottom: 0;
-  font-size: 3.6rem; }
+  color: white;
+  text-shadow: 0px 2px 7px #000000;
+  text-transform: uppercase;
+  font-size: 5rem;
+  font-weight: bold;
+  padding: 15rem;
+  margin-bottom: 0; }
 
 @media (max-width: 1100px) {
   .site-title {
@@ -1500,14 +1501,16 @@ label.tree-toggle {
     margin-top: 4rem; }
 
   .site-title {
-    font-size: 5rem; } }
+    font-size: 5rem;
+    padding: 5rem; } }
 @media (max-width: 600px) {
   .site-logo {
     max-width: 15rem;
     margin-top: 2rem; }
 
   .site-title {
-    font-size: 3.5rem; }
+    font-size: 3.5rem;
+    padding: 5rem; }
 
   .cta {
     padding: 1rem; } }
@@ -1934,7 +1937,7 @@ table tr, table td {
   margin: 2rem 0;
   color: white;
   text-transform: uppercase;
-  text-shadow: 0px 2px 7px transparent; }
+  text-shadow: 0px 2px 7px #000000; }
 .post .headshot {
   width: 100%;
   max-width: 15rem;
@@ -1948,7 +1951,7 @@ table tr, table td {
 
 .tag-container {
   color: white;
-  text-shadow: 0px 2px 7px transparent;
+  text-shadow: 0px 2px 7px #000000;
   margin-bottom: 1rem; }
 
 .tag {
@@ -1959,7 +1962,7 @@ table tr, table td {
 .author-attribution {
   color: white;
   font-weight: 300;
-  text-shadow: 0px 2px 7px transparent;
+  text-shadow: 0px 2px 7px #000000;
   margin-bottom: 2rem;
   font-style: italic; }
   .author-attribution a {
@@ -2582,6 +2585,9 @@ form select {
   margin: 10px 0 0 0 !important;
   padding: 10px 0 0 0 !important; }
 
+.e2ma_signup_form_required_footnote {
+  display: none !important; }
+
 .whitespace {
   line-height: 1.2;
   font-size: 18px; }
@@ -2717,8 +2723,8 @@ form select {
   max-width: 40rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
-  -webkit-filter: drop-shadow(0px 2px 7px transparent);
-  filter: drop-shadow(0px 2px 7px transparent); }
+  -webkit-filter: drop-shadow(0px 2px 7px #000000);
+  filter: drop-shadow(0px 2px 7px #000000); }
 
 .page-hero-img {
   background-position: center;

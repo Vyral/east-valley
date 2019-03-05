@@ -24,11 +24,11 @@ client:
   brand: Each Office is Independently Owned and Operated
   brokerage:
   address: '2077 East Warner Road, #110<br>Tempe, AZ 85284'
-  phone: 480-839-6600
+  phone: 602-550-5594
   phone_type:
   phone2:
   phone2_type:
-  email: KWEVCareers@gmail.com
+  email: tonyhughes@kw.com
   url: http://www.joinkwev.com
 
 sidebar_CTA:
@@ -101,7 +101,7 @@ header_shadow:
   h_shadow: 0px
   w_shadow: 2px
   shadow_spread: 7px
-  shadow_color: transparent
+  shadow_color: '#000000'
 
 buttons:
   button_radius_number: 0
