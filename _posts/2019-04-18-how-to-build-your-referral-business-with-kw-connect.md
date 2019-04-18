@@ -1,8 +1,9 @@
 ---
 layout: post
 title: How to Build Your Referral Business With KW Connect
-date: 2019-04-18 21:00:29
+date: 2019-04-18 21:00:00
 tags:
+  - Reviews and Referrals
 excerpt: >-
   If you follow these simple steps, you’ll be on your well on your way to
   boosting your referral business (and income!).
